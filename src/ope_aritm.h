@@ -58,15 +58,15 @@ extern "C" {
 /*==================[external data declaration]==============================*/
 
 /*==================[external functions declaration]=========================*/
-/** \brief resumen de lo que hace la función
+/** \brief Suma dos valores formato int16
  **
- ** más comentarios de lo que hace la función
  **
- ** \param[in]    a first parameter ...
- ** \param[in]    b second parameter ...
- ** \return E_OK  returns ...
+ **
+ ** \param[in]    a primer operando de la suma
+ ** \param[in]    b segundo operando de la suma
+ ** \return E_OK  valor de la suma de los operando
  **/
-extern int32_t funcion(uint8_t a, uint32_t b);
+extern int16_t sumaint16(uint16_t a, uint16_t b);
 
 /*==================[cplusplus]==============================================*/
 #ifdef __cplusplus
