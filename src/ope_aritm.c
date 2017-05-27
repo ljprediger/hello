@@ -41,7 +41,8 @@
  ** @{ */
 
 /*==================[inclusions]=============================================*/
-#include "template.h"
+#include "ope_aritm.h"
+
 
 /*==================[macros and definitions]=================================*/
 
@@ -50,13 +51,14 @@
 /*==================[internal data definition]===============================*/
 
 /*==================[external data definition]===============================*/
+#include "stdint.h"
 
 /*==================[internal functions definition]==========================*/
 
 /*==================[external functions definition]==========================*/
-extern int32_t funcion(uint8_t a, uint32_t b)
+extern int16_t simaint16(int16_t a, int16_t b)
 {
-    return 0;
+    return a+b;
 }
 
 /** @} doxygen end group definition */

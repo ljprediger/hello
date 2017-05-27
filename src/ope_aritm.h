@@ -56,7 +56,7 @@ extern "C" {
 /*==================[typedef]================================================*/
 
 /*==================[external data declaration]==============================*/
-
+#include "stdint.h"
 /*==================[external functions declaration]=========================*/
 /** \brief Suma dos valores formato int16
  **
@@ -66,7 +66,7 @@ extern "C" {
  ** \param[in]    b segundo operando de la suma
  ** \return E_OK  valor de la suma de los operando
  **/
-extern int16_t sumaint16(uint16_t a, uint16_t b);
+extern int16_t sumaint16(int16_t a,int16_t b);
 
 /*==================[cplusplus]==============================================*/
 #ifdef __cplusplus
